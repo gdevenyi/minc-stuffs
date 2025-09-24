@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 # computes the best linear fit from a non-linear transform.
 
@@ -20,7 +20,7 @@ my $mask = undef;
 
 # handle arguments
 my @left_over_args;
-my @arg_table = 
+my @arg_table =
     ( @DefaultArgs,
       ["Linear transform type", "section"],
       ["-lsq12", "const", "-lsq12", \$transformType,

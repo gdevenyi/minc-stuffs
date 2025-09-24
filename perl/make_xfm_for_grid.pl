@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 # generates an xfm file for a provided grid file
 
@@ -18,7 +18,7 @@ $0 [options] deformation_grid.mnc output_xfm_for_grid.xfm\n";
 
 # handle arguments
 my @left_over_args;
-my @arg_table = 
+my @arg_table =
     ( @DefaultArgs,
     );
 
